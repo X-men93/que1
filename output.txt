@@ -1,0 +1,117 @@
+(que1) x-men@xmen93:~/que1$ python step2.py 
+Loading CIFAR-10 data...
+Training data: 15000 samples
+Test data: 3000 samples
+
+Training model...
+Epoch 1/100 | Loss: 0.8787 | Acc: 0.6114 | LR: 0.01000
+Epoch 2/100 | Loss: 0.7514 | Acc: 0.6905 | LR: 0.00950
+Epoch 3/100 | Loss: 0.7139 | Acc: 0.7111 | LR: 0.00903
+Epoch 4/100 | Loss: 0.6792 | Acc: 0.7245 | LR: 0.00857
+Epoch 5/100 | Loss: 0.6560 | Acc: 0.7385 | LR: 0.00815
+Epoch 6/100 | Loss: 0.6396 | Acc: 0.7437 | LR: 0.00774
+Epoch 7/100 | Loss: 0.6205 | Acc: 0.7541 | LR: 0.00735
+Epoch 8/100 | Loss: 0.6128 | Acc: 0.7597 | LR: 0.00698
+Epoch 9/100 | Loss: 0.6011 | Acc: 0.7611 | LR: 0.00663
+Epoch 10/100 | Loss: 0.5878 | Acc: 0.7679 | LR: 0.00630
+Epoch 11/100 | Loss: 0.5778 | Acc: 0.7722 | LR: 0.00599
+Epoch 12/100 | Loss: 0.5692 | Acc: 0.7776 | LR: 0.00569
+Epoch 13/100 | Loss: 0.5603 | Acc: 0.7800 | LR: 0.00540
+Epoch 14/100 | Loss: 0.5559 | Acc: 0.7828 | LR: 0.00513
+Epoch 15/100 | Loss: 0.5492 | Acc: 0.7870 | LR: 0.00488
+Epoch 16/100 | Loss: 0.5423 | Acc: 0.7870 | LR: 0.00463
+Epoch 17/100 | Loss: 0.5381 | Acc: 0.7905 | LR: 0.00440
+Epoch 18/100 | Loss: 0.5318 | Acc: 0.7925 | LR: 0.00418
+Epoch 19/100 | Loss: 0.5287 | Acc: 0.7939 | LR: 0.00397
+Epoch 20/100 | Loss: 0.5217 | Acc: 0.7939 | LR: 0.00377
+Epoch 21/100 | Loss: 0.5174 | Acc: 0.7995 | LR: 0.00358
+Epoch 22/100 | Loss: 0.5147 | Acc: 0.7989 | LR: 0.00341
+Epoch 23/100 | Loss: 0.5114 | Acc: 0.8022 | LR: 0.00324
+Epoch 24/100 | Loss: 0.5088 | Acc: 0.8015 | LR: 0.00307
+Epoch 25/100 | Loss: 0.5042 | Acc: 0.8037 | LR: 0.00292
+Epoch 26/100 | Loss: 0.5017 | Acc: 0.8042 | LR: 0.00277
+Epoch 27/100 | Loss: 0.4981 | Acc: 0.8069 | LR: 0.00264
+Epoch 28/100 | Loss: 0.4961 | Acc: 0.8091 | LR: 0.00250
+Epoch 29/100 | Loss: 0.4933 | Acc: 0.8090 | LR: 0.00238
+Epoch 30/100 | Loss: 0.4910 | Acc: 0.8117 | LR: 0.00226
+Epoch 31/100 | Loss: 0.4887 | Acc: 0.8117 | LR: 0.00215
+Epoch 32/100 | Loss: 0.4864 | Acc: 0.8133 | LR: 0.00204
+Epoch 33/100 | Loss: 0.4854 | Acc: 0.8119 | LR: 0.00194
+Epoch 34/100 | Loss: 0.4839 | Acc: 0.8151 | LR: 0.00184
+Epoch 35/100 | Loss: 0.4827 | Acc: 0.8143 | LR: 0.00175
+Epoch 36/100 | Loss: 0.4799 | Acc: 0.8161 | LR: 0.00166
+Epoch 37/100 | Loss: 0.4777 | Acc: 0.8166 | LR: 0.00158
+Epoch 38/100 | Loss: 0.4764 | Acc: 0.8178 | LR: 0.00150
+Epoch 39/100 | Loss: 0.4759 | Acc: 0.8188 | LR: 0.00142
+Epoch 40/100 | Loss: 0.4736 | Acc: 0.8184 | LR: 0.00135
+Epoch 41/100 | Loss: 0.4730 | Acc: 0.8179 | LR: 0.00129
+Epoch 42/100 | Loss: 0.4717 | Acc: 0.8193 | LR: 0.00122
+Epoch 43/100 | Loss: 0.4705 | Acc: 0.8190 | LR: 0.00116
+Epoch 44/100 | Loss: 0.4696 | Acc: 0.8202 | LR: 0.00110
+Epoch 45/100 | Loss: 0.4686 | Acc: 0.8194 | LR: 0.00105
+Epoch 46/100 | Loss: 0.4667 | Acc: 0.8206 | LR: 0.00099
+Epoch 47/100 | Loss: 0.4669 | Acc: 0.8209 | LR: 0.00094
+Epoch 48/100 | Loss: 0.4652 | Acc: 0.8215 | LR: 0.00090
+Epoch 49/100 | Loss: 0.4649 | Acc: 0.8236 | LR: 0.00085
+Epoch 50/100 | Loss: 0.4640 | Acc: 0.8225 | LR: 0.00081
+Epoch 51/100 | Loss: 0.4638 | Acc: 0.8239 | LR: 0.00077
+Epoch 52/100 | Loss: 0.4624 | Acc: 0.8231 | LR: 0.00073
+Epoch 53/100 | Loss: 0.4630 | Acc: 0.8232 | LR: 0.00069
+Epoch 54/100 | Loss: 0.4610 | Acc: 0.8230 | LR: 0.00066
+Epoch 55/100 | Loss: 0.4614 | Acc: 0.8234 | LR: 0.00063
+Epoch 56/100 | Loss: 0.4603 | Acc: 0.8245 | LR: 0.00060
+Epoch 57/100 | Loss: 0.4596 | Acc: 0.8223 | LR: 0.00057
+Epoch 58/100 | Loss: 0.4589 | Acc: 0.8235 | LR: 0.00054
+Epoch 59/100 | Loss: 0.4588 | Acc: 0.8262 | LR: 0.00051
+Epoch 60/100 | Loss: 0.4580 | Acc: 0.8249 | LR: 0.00048
+Epoch 61/100 | Loss: 0.4582 | Acc: 0.8251 | LR: 0.00046
+Epoch 62/100 | Loss: 0.4574 | Acc: 0.8259 | LR: 0.00044
+Epoch 63/100 | Loss: 0.4574 | Acc: 0.8253 | LR: 0.00042
+Epoch 64/100 | Loss: 0.4563 | Acc: 0.8249 | LR: 0.00039
+Epoch 65/100 | Loss: 0.4566 | Acc: 0.8263 | LR: 0.00038
+Epoch 66/100 | Loss: 0.4557 | Acc: 0.8267 | LR: 0.00036
+Epoch 67/100 | Loss: 0.4553 | Acc: 0.8259 | LR: 0.00034
+Epoch 68/100 | Loss: 0.4554 | Acc: 0.8265 | LR: 0.00032
+Epoch 69/100 | Loss: 0.4546 | Acc: 0.8271 | LR: 0.00031
+Epoch 70/100 | Loss: 0.4544 | Acc: 0.8279 | LR: 0.00029
+Epoch 71/100 | Loss: 0.4545 | Acc: 0.8268 | LR: 0.00028
+Epoch 72/100 | Loss: 0.4542 | Acc: 0.8265 | LR: 0.00026
+Epoch 73/100 | Loss: 0.4537 | Acc: 0.8265 | LR: 0.00025
+Epoch 74/100 | Loss: 0.4537 | Acc: 0.8261 | LR: 0.00024
+Epoch 75/100 | Loss: 0.4534 | Acc: 0.8269 | LR: 0.00022
+Epoch 76/100 | Loss: 0.4541 | Acc: 0.8267 | LR: 0.00021
+Epoch 77/100 | Loss: 0.4539 | Acc: 0.8265 | LR: 0.00020
+Epoch 78/100 | Loss: 0.4529 | Acc: 0.8265 | LR: 0.00019
+Epoch 79/100 | Loss: 0.4527 | Acc: 0.8265 | LR: 0.00018
+Epoch 80/100 | Loss: 0.4525 | Acc: 0.8279 | LR: 0.00017
+Epoch 81/100 | Loss: 0.4521 | Acc: 0.8281 | LR: 0.00017
+Epoch 82/100 | Loss: 0.4522 | Acc: 0.8266 | LR: 0.00016
+Epoch 83/100 | Loss: 0.4525 | Acc: 0.8270 | LR: 0.00015
+Epoch 84/100 | Loss: 0.4519 | Acc: 0.8272 | LR: 0.00014
+Epoch 85/100 | Loss: 0.4519 | Acc: 0.8273 | LR: 0.00013
+Epoch 86/100 | Loss: 0.4523 | Acc: 0.8274 | LR: 0.00013
+Epoch 87/100 | Loss: 0.4512 | Acc: 0.8268 | LR: 0.00012
+Epoch 88/100 | Loss: 0.4516 | Acc: 0.8279 | LR: 0.00012
+Epoch 89/100 | Loss: 0.4515 | Acc: 0.8277 | LR: 0.00011
+Epoch 90/100 | Loss: 0.4514 | Acc: 0.8277 | LR: 0.00010
+Epoch 91/100 | Loss: 0.4513 | Acc: 0.8280 | LR: 0.00010
+Epoch 92/100 | Loss: 0.4509 | Acc: 0.8279 | LR: 0.00009
+Epoch 93/100 | Loss: 0.4507 | Acc: 0.8277 | LR: 0.00009
+Epoch 94/100 | Loss: 0.4515 | Acc: 0.8279 | LR: 0.00008
+Epoch 95/100 | Loss: 0.4506 | Acc: 0.8277 | LR: 0.00008
+Epoch 96/100 | Loss: 0.4506 | Acc: 0.8274 | LR: 0.00008
+Epoch 97/100 | Loss: 0.4507 | Acc: 0.8283 | LR: 0.00007
+Epoch 98/100 | Loss: 0.4510 | Acc: 0.8282 | LR: 0.00007
+Epoch 99/100 | Loss: 0.4511 | Acc: 0.8273 | LR: 0.00007
+Epoch 100/100 | Loss: 0.4503 | Acc: 0.8279 | LR: 0.00006
+
+Evaluating model...
+
+===== Evaluation Results =====
+Test Accuracy: 0.8047
+Airplane: Precision=0.7848, Recall=0.7730, F1=0.7788
+Automobile: Precision=0.8515, Recall=0.8430, F1=0.8472
+Bird: Precision=0.7785, Recall=0.7980, F1=0.7881
+
+Saving visualizations and analysis...
+Done! Check training_curves.png, confusion_matrix.png, and analysis.txt
