@@ -1,0 +1,25 @@
+
+Model Performance Analysis (CIFAR-10 Classes: Airplane, Automobile, Bird)
+
+Test Accuracy: 80.47%
+
+Class-wise Performance:
+- Airplanes: F1-score = 0.7788
+- Automobiles: F1-score = 0.8472
+- Birds: F1-score = 0.7881
+
+Observations:
+1. Automobiles achieved the best performance due to distinctive features (shape, texture)
+2. Birds were most challenging with lowest F1-score (0.7881) because of:
+   - High intra-class variation (different species)
+   - Similar backgrounds to airplanes (sky)
+   - Complex textures (feathers vs smooth surfaces)
+3. The single hidden layer (128 units) learned useful features but:
+   - Struggled with spatial relationships (no convolutional operations)
+   - Showed signs of overfitting in later epochs
+
+Improvement Strategies:
+- Implement convolutional layers for spatial feature extraction
+- Add data augmentation (random flips, rotations)
+- Include L2 regularization (λ=0.001) to reduce overfitting
+- Increase model capacity with additional hidden layers
